@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    
+    margin: 0 20px;
     max-width: 1280px;
 }
 .clear{clear: both;}
@@ -198,7 +198,7 @@ header{
     width: 258px;
     height: 322px;
     border: 2px solid black;
-    background-color: aliceblue;
+    background: linear-gradient( #33ff14, white);
 }
 
 @media screen and (max-width: 360px) {
