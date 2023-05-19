@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    margin: 0 20px;
+    
     max-width: 1280px;
 }
 .clear{clear: both;}
@@ -191,6 +191,7 @@ header{
     margin: 0 auto;
 }
 .bg-2{
+    text-align: center;
     float: left;
     margin-bottom: 20px;
     margin-left: 42px;
@@ -199,6 +200,10 @@ header{
     height: 322px;
     border: 2px solid black;
     background: linear-gradient( #33ff14, white);
+}
+.bg-2 img{
+    width: 100%;
+    height: 322px;
 }
 
 @media screen and (max-width: 360px) {
