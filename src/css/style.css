@@ -240,8 +240,11 @@ header{
     .bg-2{
         margin: 20px 12px;
         width: 40%;
-        height: 204px;
+        height: 192px;
     
+    }
+    .bg-2 img{
+        height: 192px;
     }
    
     .bg .container{
@@ -252,6 +255,7 @@ header{
     
     .lista > .container{
         margin: 0 35px;
+            
     }
     
     .lista .numeros a{
