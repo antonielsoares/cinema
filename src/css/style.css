@@ -167,10 +167,47 @@ header{
     background-image: url(../img/toninhoflix.png);
     background-size: cover;
 }
+.menu-mobile{
+    width: 44px;
+    height: 44px;
+    background-image: url(../img/menu-1.png);
+    background-size: cover;
+    float: right;
+    margin: -55px 2%;    
+    display: none;
+    cursor: pointer;
+}
+.menu-mobile ul{
+    opacity: 0;
+    transition: 0.6s;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 100%;
+}
+.menu-mobile:hover ul{
+    opacity: 1;
+    display: block;
+}
+.menu-mobile li{
+    padding: 10px 0;
+    border: 2px solid white;
+    margin: -2px auto;
+    display: flex;
+    background-color: orange;
+}
+.menu-mobile:hover li{
+    background-color: rgb(247, 208, 135)5, 200, 136);
+}
+.menu-mobile a{
+    margin: 0 auto;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    
+}
 .menu-desktop{
-    
     margin-top: -40px;
-    
     left: 976px;
     float: right;
 }
@@ -230,7 +267,15 @@ header{
     text-align: center;
 
 }
-
+@media screen and (max-width: 700px) {
+    .menu-mobile{
+        display: block;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    
+}
 
 
 @media screen and (max-width: 360px) {
