@@ -3,314 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+base, html{
+    height: 100%;
 }
-
-.container{
-    
-    max-width: 1280px;
-}
-.clear{clear: both;}
-
-/***************** AQUI COMEÇA NOSSO SITE *****************/
+/************************************* INDEX.HTML ****************************************/
 header{
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../img/cinema_bg.jpg);
-    width: 100%;
-    height: 654px;
-}
-
-.logo{
-    margin: 33px 50px;
-    width: 260px;
-    height: 80px;
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    background-image: url(../img/logo.png);
-}
-
-.sessao{
-    width: 100%;
-    height: 321px;
-}
-
-
-.enter {
-    margin: 15px 84px;
-}
-.enter input[type=email]{
-    height: 32px;
-    width: 388px;
-    padding: 0 12px;
-    color: currentColor;
-}
-.enter input[type=button]{
-    width: 104px;
-    height: 32px;
-    margin: 0 10px;
-}
-
-
-
-/************************/
-.sessao .container{
-    color: white;
-    margin: 0 77px;
-}
-.sessao h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 49px;
-    width: 499px;
-    margin: 20px 0;
-}
-.sessao p{
-    font-size: 22px;
-    color: white;
-    margin: 13px 0;
-}
-.sessao span{
-    
-    font-size: 16px;
-}
-
-.roda-pe{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding: 20px 0;
-    height: auto;
-    background-color: black;
-    border-top: 2px solid white;
-}
-.roda-pe p{
-    
-    color: aliceblue;
-}
-
-
-@media screen and (max-width: 685px){
-    .enter input[type=button]{
-        width: 104px;
-        height: 32px;
-        margin: 24px 85px;
-    }
-}
-
-
-@media screen and (max-width: 360px) {
-    .logo{
-        margin: 33px auto;
-    }   
-
-
-    .enter {
-        margin: 15px 34px;
-    }
-    .enter input[type=email]{
-        height: 32px;
-        width: 288px;
-        padding: 0 12px;
-        color: currentColor;
-    }
-    .enter input[type=button]{
-        width: 104px;
-        height: 32px;
-        margin: 14px 85px;
-    }
-    
-
-    .sessao .container{
-        color: white;
-        margin: 0 47px;
-    }
-    .sessao h1{
-        font-size: 45px;
-        width: 299px;
-    }
-    .sessao p{
-        font-size: 22px;
-        color: white;
-        margin: 13px 0;
-    }
-    .sessao span{
-        
-        font-size: 16px;
-    }
-    .roda-pe p{
-        text-align: center;
-        font-size: 12px;
-        width: 100%;
-    }
-}
-
-
-
-/************************************** DENTRO.HTML *************************************************/
-.cabecalho{
-    
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid white;
-    background-color: black;
-}
-.cabecalho .container{
-    margin: 10px 3%;
-}
-.logo-2{
-    width: 176px;
-    height: 62px;
-    background-image: url(../img/toninhoflix.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
 }
-.menu-mobile{
-    width: 44px;
-    height: 44px;
-    background-image: url(../img/menu-1.png);
-    background-size: cover;
-    float: right;
-    margin: -55px 2%;    
-    display: none;
+header .box{
+    padding: 0 30px;
+    border-radius: 10px;
+    width: 333px;
+    background-color: rgb(241, 240, 240);
+}
+header .box img{
+    margin-left: 33px;
+    margin-top: 20px;
+    width: 13rem;
+}
+.box input[type=nome]{
+    border: 0;
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.box input[type=senha]{
+    border: 0;
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 12px;
+}
+.box input[type=button]{
+    margin-bottom: 18px;
+    padding: 2px 29px;
+    font-size: 11px;
     cursor: pointer;
 }
-.menu-mobile ul{
-    z-index: 999;
-    opacity: 0;
-    transition: 0.6s;
+.redes{
+    margin-top: -22px;
+    margin-left: -35px;
+    margin-bottom: 40px;
+    width: 100%;   
+}
+.redes span{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 82px;
+}
+.redes a{
+    text-decoration: none;
+}
+.txt{
     position: absolute;
-    top: 74px;
-    left: 0;
-    width: 100%;
-}
-.menu-mobile:hover ul{
-    opacity: 1;
-    display: block;
-}
-.menu-mobile li{
-    padding: 10px 0;
-    border: 2px solid white;
-    margin: -2px auto;
-    display: flex;
-    background-color: orange;
-}
-.menu-mobile:hover li{
-    background-color: rgb(247, 208, 135)5, 200, 136);
-}
-.menu-mobile a{
-    margin: 0 auto;
-    font-size: 17px;
-    color: white;
-    text-decoration: none;
-    
-}
-.menu-desktop{
-    margin-top: -40px;
-    left: 976px;
-    float: right;
-}
-.menu-desktop a{
     color: aliceblue;
-    margin: 0 10px;
-    text-decoration: none;
+    bottom: 133px;
+    font-size: 10px;
 }
-/******************************** bg *********************************/
-.bg{
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-image: url(../img/cinema_bg.jpg);
-}
-.bg-1{
-    align-items: center;
-    margin: 0 auto;
-}
-.bg-2{
-    text-align: center;
-    float: left;
-    margin-bottom: 20px;
-    margin-left: 42px;
-    margin-top: 30px;
-    width: 258px;
-    height: 322px;
-    border: 2px solid black;
-    background: linear-gradient( #33ff14, white);
-}
-.bg-2 img{
-    width: 100%;
-    height: 322px;
-}
-/******************************** bg *********************************/
-.lista {
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color: black;
-}
-.lista > .container{
-    position: relative;
-    margin: 0 auto;
-}
-.lista .numeros{
-    margin: 44px auto;
-
-    width: 100%;
-    
-}
-.lista .numeros a{
-    color: white;
-    padding: 7px 23px;
-    text-decoration: none;
-    border: 2px solid white;
-    text-align: center;
-
-}
-@media screen and (max-width: 700px) {
-    .menu-mobile{
-        display: block;
-    }
-    .menu-desktop{
-        display: none;
-    }
-    
-}
-
-
-@media screen and (max-width: 360px) {
-    .menu-desktop{
-        display: none;
-    }
-    .bg-2{
-        margin: 20px 12px;
-        width: 40%;
-        height: 192px;
-    
-    }
-    .bg-2 img{
-        height: 192px;
-    }
-   
-    .bg .container{
-        position: relative;
-        margin: 0 5%;   
-    }
-    /******************************** bg *********************************/
-    
-    .lista > .container{
-        margin: 0 35px;
-            
-    }
-    
-    .lista .numeros a{
-        
-        padding: 4px 12px;
-       
-    }
-}
-
-
-
-
