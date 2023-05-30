@@ -6,6 +6,9 @@
 base, html{
     height: 100%;
 }
+.container{
+    margin: 0 32px;
+}
 /************************************* INDEX.HTML ****************************************/
 header{
     background-image: url(../img/cinema_bg.jpg);
@@ -18,28 +21,31 @@ header{
     justify-content: center;
 }
 header .box{
-    padding: 0 30px;
+    padding: 92px 30px;
     border-radius: 10px;
     width: 333px;
     background-color: rgb(241, 240, 240);
 }
-header .box img{
+header .box .logo{
     margin-left: 33px;
-    margin-top: 20px;
+    margin-top: -47px;
     width: 13rem;
+}
+header .box .txt-1{
+    color: rgb(105, 105, 104);
 }
 .box input[type=nome]{
     border: 0;
     width: 100%;
-    padding: 4px 8px;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    padding: 6px 8px;
+    margin-bottom: 12px;
+    margin-top: 13px;
 }
 .box input[type=senha]{
     border: 0;
     width: 100%;
-    padding: 4px 8px;
-    margin-bottom: 12px;
+    padding: 6px 8px;
+    margin-bottom: 12px;   
 }
 .box input[type=button]{
     margin-bottom: 18px;
@@ -48,22 +54,66 @@ header .box img{
     cursor: pointer;
 }
 .redes{
-    margin-top: -22px;
-    margin-left: -35px;
-    margin-bottom: 40px;
-    width: 100%;   
+    margin: 7px 0;
 }
-.redes span{
+.redes > img{
     display: flex;
-    margin-top: -30px;
-    margin-left: 82px;
+    left: 100px;  
 }
 .redes a{
+    float: right;
+    margin-right: 132px;
+    margin-top: -28px;
+    color: rgb(155, 154, 154);
     text-decoration: none;
+    font-size: 17px;
 }
 .txt{
+    border-top: 2px solid rgb(155, 154, 154);
     position: absolute;
-    color: aliceblue;
-    bottom: 133px;
+    color: rgb(155, 154, 154);
+    bottom: 103px;
     font-size: 10px;
+    padding: 10px 0;
+}
+/**************************** FILMES.HTML ****************************/
+.box-bg{
+    background-image: url(../img/cinema_bg.jpg);
+    width: 100%;
+    height: 765px;
+}
+.box-menu{
+    padding: 11px;
+    background-color: rgb(192, 190, 190);
+    border-bottom: 3px solid white;
+}
+.logo-2{
+    width: 188px;
+    height: 68px;
+    background-image: url(../img/toninhoflix.png);
+    background-size: contain;
+    
+}
+nav.mobile{
+    width: 33px;
+    height: 33px;
+    display: none;
+    background-image: url(../img/menu-1.png);
+    
+}
+nav.deskitop{
+    float: right;
+    margin: -50px 0;
+}
+nav.deskitop a{
+    margin: 0 22px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+nav.mobile{
+    width: 33px;
+    height: 33px;
+    background-image: url(../img/menu-1.png);
+    display: none;
 }

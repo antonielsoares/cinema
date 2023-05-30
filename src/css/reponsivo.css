@@ -1,0 +1,20 @@
+/*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
+
+/************* 360-PX ****************/
+/************* INDEX.HTML ****************/
+@media screen and (max-width: 360px) {
+    header .box {
+        height: 525px;
+    }
+}
+/************* 980-PX ****************/
+/************* FILMES.HTML ****************/
+@media screen and (max-width: 980px){
+    .mobile{
+        display: block;
+    }
+    .deskitop{
+        display: none;
+    }
+    
+}
