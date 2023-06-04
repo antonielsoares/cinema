@@ -24,6 +24,7 @@ header .box{
     padding: 92px 30px;
     border-radius: 10px;
     width: 333px;
+    height: 433px;
     background-color: rgb(241, 240, 240);
 }
 header .box .logo{
@@ -69,12 +70,10 @@ header .box .txt-1{
     font-size: 17px;
 }
 .txt{
-    border-top: 2px solid rgb(155, 154, 154);
-    position: absolute;
-    color: rgb(155, 154, 154);
-    bottom: 103px;
-    font-size: 10px;
-    padding: 10px 0;
+    color: rgb(148, 148, 148);
+    margin-top: 42px;
+    text-align: center;
+    font-size: 13px;
 }
 /**************************** FILMES.HTML ****************************/
 .box-bg{
