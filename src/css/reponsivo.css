@@ -1,5 +1,13 @@
 /*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
-
+@media screen and (max-width: 980px){
+    nav.mobile{
+        display: block;
+    }
+    .deskitop{
+        display: none;
+    }
+    
+}
 /************* 360-PX ****************/
 @media screen and (max-width: 380px) {
     .txt{
@@ -29,12 +37,3 @@
 }
 /************* 980-PX ****************/
 /************* FILMES.HTML ****************/
-@media screen and (max-width: 980px){
-    .mobile{
-        display: block;
-    }
-    .deskitop{
-        display: none;
-    }
-    
-}
