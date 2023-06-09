@@ -55,15 +55,15 @@ header .box .txt-1{
     cursor: pointer;
 }
 .redes{
-    margin: 7px 0;
+    margin: 12px 0;
 }
 .redes > img{
     display: flex;
     left: 100px;  
 }
 .redes a{
-    float: right;
-    margin-right: 132px;
+    display: flex;
+    margin-left: 43px;
     margin-top: -28px;
     color: rgb(155, 154, 154);
     text-decoration: none;

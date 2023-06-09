@@ -1,18 +1,30 @@
 /*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
 
 /************* 360-PX ****************/
-/************* INDEX.HTML ****************/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 380px) {
+    .txt{
+        font-size: 8px;
+        color: red;
+    }
+}
+/************* INDEX.HTML ****************
+@media screen and (max-width: 480px){
     
     header .box {
         text-align: center;
-        height: 385px;
+        height: 695px;
         width: 25px;
     }
-    .logo{
-        margin-left: 23px;
-        margin-top: 47px;
-        width: 3px;
+    header .box .logo{
+        margin-left: 33px;
+        margin-top: -47px;
+        width: 6rem;
+    }
+    .txt{
+        color: rgb(148, 148, 148);
+        
+        
+        font-size: 7px;
     }
 }
 /************* 980-PX ****************/
