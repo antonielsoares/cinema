@@ -1,3 +1,14 @@
+@media screen and (max-width: 700px){
+    .txt{
+        color: rgb(148, 148, 148);
+        margin-top: 42px;
+        text-align: center;
+        font-size: 9px;
+    }
+    .container{
+        margin: 0 5px;
+    }
+}
 /*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
 @media screen and (max-width: 980px){
     nav.mobile{
