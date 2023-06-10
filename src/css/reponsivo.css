@@ -28,7 +28,9 @@
     .txt-filmes{
         text-align: center;
         margin: 160px auto;
-        font-size: 44px;
+        font-size: 34px;
+
+        width: 90%;
     }
 
    

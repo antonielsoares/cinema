@@ -76,7 +76,11 @@ header .box .txt-1{
     font-size: 13px;
 }
 /**************************** FILMES.HTML ****************************/
-
+.box-bg{
+    background-image: url(../img/cinema_bg.jpg);
+    width: 100%;
+    height: 100vh;
+}
 .box-menu{
     padding: 10px;
     background-color: rgb(192, 190, 190);
@@ -142,11 +146,11 @@ nav.deskitop a{
 }
 /**************************** AÇÃO.HTML ****************************/
 .BG{
-    display: flex;
+    display: inline-block;
     width: 100%;
-    height: 1543px;
+    height: auto;
     background-image: url(../img/cinema_bg.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }  
 
@@ -159,10 +163,10 @@ nav.deskitop a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 465px;
 }  
 .BG .filmes > img{
+    margin-top: 25px;
     border: 2px solid white;
     width: 23%;
-    margin-left: 13px;
+    margin-left: 15px;
 }
