@@ -1,14 +1,4 @@
-@media screen and (max-width: 780px){
-    .txt{
-        font-size: 10px;
-    }
-    .container{
-        margin: 0 5px;
-    }
-    .txt-filmes{
-        font-size: 54px;
-    }
-}
+
 /*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
 @media screen and (max-width: 995px) {
     .filmes{
@@ -37,10 +27,24 @@
 }
 
 @media screen and (max-width: 780px){
+    .txt{
+        font-size: 10px;
+    }
+    .container{
+        margin: 0 5px;
+    }
     .txt-filmes{
         text-align: center;
         margin: 160px auto;
         font-size: 44px;
+    }
+    .filmes{
+        margin: 30px 18px;
+    }    
+    .galeria{
+        margin-top: 26px;
+        width: 122px;
+        height: auto;
     }
 }
 
@@ -59,13 +63,13 @@
         height: auto;
     }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     .txt{
         font-size: 8px;
         color: red;
     }
     .filmes{
-        margin: 30px 0;
+        margin: 30px 18px;
     }    
     .galeria{
         margin-top: 26px;
