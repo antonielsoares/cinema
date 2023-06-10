@@ -1,14 +1,6 @@
 
 /*****************  AQUI COMEÇA RESPONSIVOS 360-980PX ******************/
-@media screen and (max-width: 995px) {
-    .filmes{
-        margin: 30px 20px;
-    }    
-    .galeria{
-        margin-top: 26px;
-        width: 268px;
-    }
-}
+
 @media screen and (max-width: 980px){
     nav.mobile{
         display: block;
@@ -16,36 +8,37 @@
     .deskitop{
         display: none;
     }
-    .filmes{
-        margin: 30px 0;
-    }    
-    .galeria{
-        margin-top: 26px;
-        width: 262px;
+   
+}
+@media screen and (max-width: 860px) {
+    .container{
+        margin: 0 5px;
     }
-    
+    .BG .filmes > img{
+        width: 31%;
+        margin-left: 13px;
+    }
 }
 
 @media screen and (max-width: 780px){
     .txt{
         font-size: 10px;
     }
-    .container{
-        margin: 0 5px;
-    }
+   
     .txt-filmes{
         text-align: center;
         margin: 160px auto;
         font-size: 44px;
     }
-    .filmes{
-        margin: 30px 18px;
-    }    
-    .galeria{
-        margin-top: 26px;
-        width: 122px;
-        height: auto;
+
+   
+}
+@media screen and (max-width: 680px){
+    .BG .filmes > img{
+        width: 46%;
+       
     }
+   
 }
 
 /************* 360-PX ****************/
@@ -54,28 +47,22 @@
         font-size: 8px;
         color: red;
     }
-    .filmes{
-        margin: 30px 0;
-    }    
-    .galeria{
-        margin-top: 26px;
-        width: 162px;
-        height: auto;
-    }
+   
+
 }
 @media screen and (max-width: 420px) {
     .txt{
         font-size: 8px;
         color: red;
     }
-    .filmes{
-        margin: 30px 18px;
-    }    
-    .galeria{
-        margin-top: 26px;
-        width: 162px;
-        height: auto;
+ 
+    .BG .filmes > img{
+        
+        width: 90%;
+        
     }
+  
+
 }
 /************* INDEX.HTML ****************
 @media screen and (max-width: 480px){

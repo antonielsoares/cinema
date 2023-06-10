@@ -76,13 +76,9 @@ header .box .txt-1{
     font-size: 13px;
 }
 /**************************** FILMES.HTML ****************************/
-.box-bg{
-    background-image: url(../img/cinema_bg.jpg);
-    width: 100%;
-    height: 765px;
-}
+
 .box-menu{
-    padding: 11px;
+    padding: 10px;
     background-color: rgb(192, 190, 190);
     border-bottom: 3px solid white;
 }
@@ -145,17 +141,28 @@ nav.deskitop a{
     color: white;
 }
 /**************************** AÇÃO.HTML ****************************/
-.filmes{
-    width: 100%;  
-}
-.container{
-    margin-top: 30px;
-}
-
-.galeria{
-    margin: 15px 10px;
-    width: 288px;
-    height: 411px;
-    background-size: cover;
+.BG{
+    display: flex;
+    width: 100%;
+    height: 1543px;
+    background-image: url(../img/cinema_bg.jpg);
+    background-size: contain;
     background-position: center;
+}  
+
+.BG .container{
+    margin-top: 32px;
+    display: flex;
+
+}
+.BG .filmes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 465px;
+}  
+.BG .filmes > img{
+    border: 2px solid white;
+    width: 23%;
+    margin-left: 13px;
 }
