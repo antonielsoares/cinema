@@ -37,8 +37,10 @@
 }
 @media screen and (max-width: 680px){
     .BG .filmes > img{
-        width: 46%;
-       
+        width: 46%; 
+    }
+    .txt-footer{
+        font-size: 18px; 
     }
    
 }
